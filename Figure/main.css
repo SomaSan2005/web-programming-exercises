@@ -1,0 +1,40 @@
+body {
+  height: 400vh;
+}
+
+::-webkit-scrollbar{
+  width: 20px;
+}
+::-webkit-scrollbar-track{
+  background: #dddd;
+}
+::-webkit-scrollbar-thumb{
+  background:#000000;
+}
+
+body{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.heart{
+  position: relative;
+  height: 180px;
+  width: 100px;
+  background:rgb(250, 247, 0);
+  border-radius: 200px 200px 0 0;
+  transform: rotate(50deg);
+  left: 70px;
+  top: 2000px;
+}
+.heart{
+  position: relative;
+  height: 160px;
+  width: 100px;
+  background:rgb(0, 125, 250);
+  border-radius: 200px 200px 0 0;
+  transform: rotate(50deg);
+  left: 70px;
+  top: 70px;
+}
