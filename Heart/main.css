@@ -1,0 +1,35 @@
+body{
+
+height: 100vh;
+
+display: grid; place-items: center;
+
+} .heart{
+
+position: relative;
+
+height: 160px;
+
+width: 100px; background: red;
+
+border-radius: 200px 200px 0 0;
+
+transform: rotate(45deg);
+
+}
+
+.heart::before{
+
+content:"";
+
+position: absolute;
+
+background: red;
+
+height: 160px; width: 100px;
+
+transform: rotate(-90deg);
+
+border-radius: 200px 200px 0 0;
+
+left: -30px; top: 30px
